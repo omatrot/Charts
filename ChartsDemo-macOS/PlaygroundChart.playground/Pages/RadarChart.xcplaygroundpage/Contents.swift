@@ -29,6 +29,7 @@ chartView.innerWebLineWidth = 1.0
 chartView.webColor = NSUIColor.lightGray
 chartView.innerWebColor = NSUIColor.lightGray
 chartView.webAlpha = 1.0
+chartView.webAlphaInner = 1.0
 //: ### xAxis
 let xAxis = chartView.xAxis
 xAxis.labelFont = NSUIFont(name: "HelveticaNeue-Light", size: CGFloat(9.0))!

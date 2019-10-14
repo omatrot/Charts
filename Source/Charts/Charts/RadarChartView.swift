@@ -30,7 +30,10 @@ open class RadarChartView: PieRadarChartViewBase
     @objc open var innerWebColor = NSUIColor(red: 122/255.0, green: 122/255.0, blue: 122.0/255.0, alpha: 1.0)
     
     /// transparency the grid is drawn with (0.0 - 1.0)
-    @objc open var webAlpha: CGFloat = 150.0 / 255.0
+    @objc open var webAlpha: CGFloat = 150.0 / 255.0    
+    
+    /// transparency the grid is drawn with (0.0 - 1.0)
+    @objc open var webAlphaInner: CGFloat = 150.0 / 255.0
     
     /// flag indicating if the web lines should be drawn or not
     @objc open var drawWeb = true

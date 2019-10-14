@@ -314,7 +314,8 @@ open class RadarChartRenderer: LineRadarRenderer
         // draw the inner-web
         context.setLineWidth(chart.innerWebLineWidth)
         context.setStrokeColor(chart.innerWebColor.cgColor)
-        context.setAlpha(chart.webAlpha)
+        context.setAlpha(chart.webAlphaInner)
+
         
         let labelCount = chart.yAxis.entryCount
         
