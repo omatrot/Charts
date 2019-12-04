@@ -32,6 +32,9 @@ open class RadarChartView: PieRadarChartViewBase
     /// transparency the grid is drawn with (0.0 - 1.0)
     @objc open var webAlpha: CGFloat = 150.0 / 255.0
     
+    /// transparency the grid is drawn with (0.0 - 1.0)
+    @objc open var webAlphaInner: CGFloat = 150.0 / 255.0
+    
     /// flag indicating if the web lines should be drawn or not
     @objc open var drawWeb = true
     
